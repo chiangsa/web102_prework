@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - **Sea Monster Crowdfunding**
 
-Submitted by: **Your Name Here**
+Submitted by: **Shaun Chiang**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -19,22 +19,23 @@ The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
 
+1. When viewing the website on a monitor, having left aligned text when the rest of the images and boxes are centered is a little strange. I decided to center all the texts and titles
+2. There is no unique website name on the tab of the browser, so I made it say 'Sea Monster Crowdfunding'
+3. Sometimes a user might want to focus on a specific game card, so I added a feature where when you hover over the games, their game card increases in size, and so does the font.
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/B49zk3T' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ScreenToGif
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+1. When trying to center the title 'Sea Monster Crowdfunding', I was having issues centering the text in index.html. On line 14 of index.html, I added a 'center' class to the <h1> tag, but it wasn't working. I had to put the 'center' class in the div wrapping around the <h1>. This took me a while to figure out.
+
 
 ## License
 

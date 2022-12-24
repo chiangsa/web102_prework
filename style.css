@@ -11,6 +11,7 @@ body {
 
 .header {
     display: flex;
+    justify-content: center;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
@@ -23,7 +24,14 @@ body {
     display: flex;
 }
 
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 .stats-card {
+    display: flexbox;
+    align-items: center;
     background-color: #a8b0bc;
     border-radius: 7px;
     padding: 1%;
@@ -31,6 +39,7 @@ body {
     width: 100%;
     text-align: center;
 }
+
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
@@ -60,6 +69,9 @@ body {
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    transform: scale(1.1);
+    font-size: larger;
+    
 }
 
 #button-container {
@@ -72,4 +84,8 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.center {
+  text-align: center;
 }
