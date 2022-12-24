@@ -27,14 +27,14 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/B49zk3T' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='codepath_prework.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ScreenToGif
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-1. When trying to center the title 'Sea Monster Crowdfunding', I was having issues centering the text in index.html. On line 14 of index.html, I added a 'center' class to the <h1> tag, but it wasn't working. I had to put the 'center' class in the div wrapping around the <h1>. This took me a while to figure out.
+1. When trying to center the title 'Sea Monster Crowdfunding', I was having issues centering the text in index.html. On line 14 of index.html, I added a 'center' class to the h1 tag, but it wasn't working. I had to put the 'center' class in the div wrapping around the h1. This took me a while to figure out.
 
 
 ## License
